@@ -31,6 +31,6 @@ jobs:
           image: mazensayegh/dockerlab2
           registry: docker.io
           dockerfile: Dockerfile
-          username: "${{ secrets.REPO_USERNAME }}"
-          password: "${{ secrets.REPO_PASSWORD }}"
+          username: "${{ secrets.DOCKER_USERNAME }}"
+          password: "${{ secrets.DOCKER_PASSWORD }}"
           tags: latest 
